@@ -1,0 +1,8 @@
+CREATE TABLE contacts (
+  id VARCHAR(32) PRIMARY KEY NOT NULL,
+  name VARCHAR(50) NOT NULL,
+  status VARCHAR(26) NOT NULL,
+  created_on TIMESTAMPZ NOT NULL,
+  modified_on TIMESTAMPZ NOT NULL,
+  lastseen_on TIMESTAMPZ
+);
